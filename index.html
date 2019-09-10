@@ -5,23 +5,130 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bc23703252.js"></script>
 </head>
-<body>
-  <ul class="athalaia">
-    <li>
+<body style="background-image: /*linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,20,20,0.6) 50%),*/ url('images/body-banner.jpg');">
+  <div class="wrapper">
+    <ul class="athalaia">
+      <li>
+        <h2>ATHALAÏA</h2>
+      </li>
+      <li>
+        <h3>Cybersecurity Software</h3>
+      </li>
+    </ul>
+    <div class="banner">
+      <video controls autoplay>
+        <source src="video/Video-Athalaia.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="content-presentation">
       <img src="images/logo-athalaia.png" alt="">
-    </li>
-    <li>
-      <h2>Présentation</h2>
-    </li>
-  </ul>
-  <div class="banner">
-    <video controls autoplay>
-      <source src="video/Video-Athalaia.mp4" type="video/mp4">
-    </video>
-  </div>
-  <div class="content-presentation">
-    <h1>Logiciel Cybersécurité</h1>
+      <h1>Cybersecurity Software</h1>
+      <h2>Athalaïa, logiciel automatisé de pentest</h2>
+      <hr>
+      <div class="block-competence">
+        <div class="competence">
+          <div class="description-athalaia">
+            <i class="fas fa-network-wired"></i>
+            <div class="details">
+              <h3>Scan du réseau</h3>
+              <p>Athalaïa scan le réseau, il repère les machines présentes et récupère leurs adresses IP. Des informations supplémentaires comme le type de machine ou d'OS est détecté.</p>
+            </div>
+          </div>
+          <div class="description-athalaia">
+            <i class="fab fa-windows"></i>
+            <div class="details">
+              <h3>Scan de l'OS et version</h3>
+              <p>Athalaïa effectue un scan sur la ou les machines choisis entré dans le champ des cibles. Une fois scanné Athalaïa récupère les types de logiciels utilisés et leur versions. Les données sont stockés et traité.</p>
+            </div>
+          </div>
+        </div>
+        <div class="competence">
+          <div class="description-athalaia">
+            <i class="fas fa-exclamation-triangle"></i>
+            <div class="details">
+              <h3>Scan de vulnérabilité</h3>
+              <p>Athalaïa compare les logiciels et versions de la machine scanné par rapport à sa base de données intégré. Une fois comparé, Athalaïa détermine les corespondances entre les logiciels et versions présentent aux CVE présente dans la base de données.</p>
+            </div>
+          </div>
+          <div class="description-athalaia">
+            <i class="fas fa-file-code"></i>
+            <div class="details">
+              <h3>Rapport de failles de sécurité</h3>
+              <p>Athalaïa stock les CVE encontrés et crée un rapport détaillé des failles de sécurité associé aux ports ouverts. Un descriptif des failles de sécurité et correction proposé. Pour aller plus loin, un site web de correction de CVE est affiché.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="enjeux-cyber">
+      <h2>Combien de temps prend un test de sécurité Athalaïa ?</h2>
+      <p>Athalaïa prend au maximum 2h de tests au sein d'une entreprise. Pour cela, le temps de rédaction du rapport est fortement réduis. Athalaïa peut scanner directement tout une infrastructure réseau en un clic.</p>
+      <p>Une fois le test réalisé par nos techniciens, une proposition de devis est faite pour une correction plus poussé.</p>
+    </div>
+    <div class="pricing">
+      <h2>Prix des différentes préstations Athalaïa</h2>
+      <div class="flex-card">
+        <div class="card">
+          <h3>BASIC</h3>
+          <h4>700€</h4>
+          <p>Par préstation</p>
+          <div class="info-prix">
+            <p>Scan du réseau</p>
+            <p>Scan de vulnérabilité</p>
+            <p>Rapport de sécurité</p>
+
+          </div>
+          <a href="" class="btn-contact">Nous contacter</a>
+        </div>
+        <div class="card">
+          <h3>PREMIUM</h3>
+          <h4>Devis</h4>
+          <p>Par préstation</p>
+          <div class="info-prix">
+            <p>Scan du réseau</p>
+            <p>Scan de vulnérabilité</p>
+            <p>Rapport de sécurité & correction</p>
+          </div>
+          <a href="" class="btn-contact" style="opacity: 0.7;">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+    <div class="hors-connexion">
+      <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="">
+      <div class="not-flex">
+        <div class="descriptif-test">
+          <i class="fas fa-wifi"></i>
+          <div class="descriptif">
+            <h3>Test hors connexion</h3>
+            <p>Le test de sécurité est réalisé hors ligne. Le logiciel Athalaïa n'utilise pas la connexion internet pour réaliser son pentest.</p>
+          </div>
+        </div>
+        <div class="descriptif-test">
+          <i class="fas fa-lock" style="font-size: 55px;"></i>
+          <div class="descriptif">
+            <h3>Test sécurisé</h3>
+            <p>Le test est sécurisé car le logiciel Athalaïa ne laisse pas de signature sur le réseau. Une signature réseau peut être identifié par les "pirates informatiques" et donc repérer les entreprises en cours de test de sécurité.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        <a href="">
+          Contacter <!-- <i class="fas fa-heart"></i> --> CREATECH
+        </a>
+      </div>
+    </div>
+    <div class="copyright">
+      Copyright © 2019 CREATECH.
+    </div>
   </div>
 </body>
 </html>
