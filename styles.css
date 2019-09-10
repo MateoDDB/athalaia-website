@@ -165,7 +165,7 @@ body {
   margin: 0 20px;
   transition: 0.3s ease;
   box-shadow: rgba(33,33,33,.055) 0 4px 24px 5px;
-  border-bottom: 5px solid #EBEBEB;
+  border-bottom: 7px solid #EBEBEB;
 }
 
 .card:hover {
