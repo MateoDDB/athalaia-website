@@ -307,6 +307,19 @@ body {
   opacity: 0.7;
 }
 
+.img-web-application {
+  margin-top:100px;
+}
+
+.img-web-application img{
+  margin-top:100px;
+}
+
+.img-web-application h2{
+  font-size: 32px;
+  color: #2EA2FF;
+}
+
 @media screen and (max-width: 640px) {
   .bloc {
     display:block;
