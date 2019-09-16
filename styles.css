@@ -49,6 +49,10 @@ body {
   border-radius: 4px;
 }
 
+.banner source {
+  border-radius: 4px;
+}
+
 .content-presentation {
   color: black;
   text-align: center;
